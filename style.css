@@ -1,0 +1,15 @@
+h2{
+    width:100%;
+    font-family: monospace;
+    text-wrap: nowrap;
+    overflow: hidden;
+    color: red;
+    animation: typing 2s steps(20) infinite alternate-reverse;
+}
+
+@keyframes typing{
+    from{ 
+        width:0ch;
+    }
+}
+
